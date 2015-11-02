@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/gawjae_list_bar"
+        android:layout_alignParentTop="true" >
+
+        <TextView
+            android:id="@+id/test_list_textView1"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="0.5"
+            android:text="문자"
+            android:textColor="#000000"
+            android:gravity="center_vertical"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/test_list_textView2"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:textColor="#000000"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:text="문자" />
+
+        <Button
+            android:id="@+id/test_list_item_btn"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.50"
+            android:textColor="#000000"
+            android:background="@drawable/gawjae_delete_btn"
+            android:text="삭제" />
+
+    </LinearLayout>
+
+</RelativeLayout>

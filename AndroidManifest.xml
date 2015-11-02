@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.MakeItEasy.dachaenggyeotni"
+    android:versionCode="4"
+    android:versionName="1.3" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name="com.MakeItEasy.dachaenggyeotni.Variable"
+        android:allowBackup="true"
+        android:configChanges="orientation|keyboardHidden|keyboard"
+        android:icon="@drawable/icon"
+        android:label=""
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Light.NoTitleBar" >
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.CalendarView"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Junbimul_moklok"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Test_Dialog"
+            android:label="" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Test_Gawjae_Activity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Test_Gawjae_item"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Test_PushClick"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.dialog"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.dialog2_2"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.dialog2_3"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.dialog2_4"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.dialog2"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.dialog3"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Gawjae_item"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Setting_junbimul"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Setting_junbimul_dialog"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.LockScreen_View"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Gawjae_moklok"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Alarm_Dialog"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Alarm_PushClick"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Setting_choose"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Setting_gawjae"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Push_PushClick"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Push_Variable"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Sample_gawjae_Activity"
+            android:label=""
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.MakeItEasy.dachaenggyeotni.Splash"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Light.NoTitleBar" >
+        </activity>
+
+        <receiver
+            android:name="com.MakeItEasy.dachaenggyeotni.Alarm_Receiver"
+            android:process=":remote" >
+        </receiver>
+        <receiver
+            android:name="com.MakeItEasy.dachaenggyeotni.Test_AlarmRecever"
+            android:process=":remote" >
+        </receiver>
+        <receiver
+            android:name="com.MakeItEasy.dachaenggyeotni.Push_Receiver"
+            android:process=":remote" >
+        </receiver>
+        <receiver
+            android:name=".LockScreen_RestartReceiver"
+            android:process=".remote" >
+            <intent-filter>
+                <action android:name="RestartReceiver.restart" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".LockScreen_BootReceiver"
+            android:enabled="true"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".LockScreen_UpdateReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_ADDED" />
+                <action android:name="android.intent.action.PACKAGE_REMOVED" />
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data android:scheme="package" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.MakeItEasy.dachaenggyeotni.LockScreen_Service" />
+    </application>
+
+</manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">준비물,과제\n 다 챙겼니?</string>
+    <string name="push_Alram_On">push,알람 설정하기</string>
+    <string name="push_Alram_Off">push,알람 설정완료</string>
+    <string name="action_settings">Settings</string>
+    <string name="preview">이전</string>
+    <string name="next">다음</string>
+
+</resources>

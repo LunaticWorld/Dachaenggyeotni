@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/led_bgd"
+     >
+
+    
+    <ImageView
+        android:id="@+id/gawjae_image"
+        android:layout_width="160dp"
+        android:layout_height="160dp"
+        android:background="@drawable/under_construction" 
+        android:layout_centerVertical="true"
+        />
+
+    <TextView
+        android:id="@+id/gawjae_sample_id01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/gawjae_image"
+        android:text="공사중"
+        android:textColor="#DB0000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gawjae_sample_id03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/gawjae_sample_id01"
+        android:layout_below="@+id/gawjae_sample_id01"
+        android:text="빠른 시일 내에 개발하도록 하겠습니다."
+        android:textSize="12dp"
+        android:textColor="#0030DB"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/gawjae_sample_id02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/gawjae_sample_id03"
+        android:layout_toRightOf="@+id/gawjae_sample_id01"
+        android:text="입니다."
+        android:textColor="#0030DB"
+        android:textSize="20dp" />
+    
+</RelativeLayout>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/asdf"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="" />
+
+        <Button
+            android:id="@+id/junbimul_input"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:background="@drawable/junbimulcuga"
+            android:text="준비물 추가"
+            android:textColor="#fafafa"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/gawjae_input"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/gawjaecuga"
+            android:text="과제 추가"
+            android:textSize="30dp"
+            android:textColor="#353535"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+</LinearLayout>

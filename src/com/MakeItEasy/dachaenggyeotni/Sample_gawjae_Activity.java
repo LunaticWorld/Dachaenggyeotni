@@ -1,0 +1,15 @@
+package com.MakeItEasy.dachaenggyeotni;
+
+import android.app.Activity;
+import android.os.Bundle;
+
+public class Sample_gawjae_Activity extends Activity {
+
+	@Override
+	public void onCreate(Bundle savedInstanceState) {
+		super.onCreate(savedInstanceState);
+		setContentView(R.layout.gawjae_sample_xml);
+
+	}
+
+}

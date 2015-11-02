@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff" >
+
+   <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="130dp"
+        android:layout_marginTop="20dp"
+         >
+	<RelativeLayout
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal" >
+       <!-- 과제가 있는 과목명을 내부 DB에서 가져와 넣을 TextView -->
+
+		<TextView
+		    android:id="@+id/gawjae_name"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="60dp"
+		    android:layout_marginTop="50dp"
+		    android:text="과학"
+		    android:textColor="#000000"
+		    android:textSize="20sp" />
+
+	   <!-- 푸시 알람과 알람 기능이 이 버튼을 터치 하였을 때 띄워지도록 하기 위해서 만든 버튼 -->
+
+	   <FrameLayout
+	       android:layout_width="wrap_content"
+	       android:layout_height="wrap_content"
+	       android:layout_alignParentRight="true"
+	       android:layout_alignParentTop="true" >
+
+	       <Button
+	           android:id="@+id/push_Alram_Off"
+	           android:layout_width="130dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="30dp"
+	           android:background="#00B4DB"
+	           android:text="@string/push_Alram_Off" />
+
+	       <Button
+	           android:id="@+id/push_Alram_On"
+	           android:layout_width="130dp"
+	           android:layout_height="50dp"
+	           android:layout_marginLeft="30dp"
+	           android:background="#00B4DB"
+	           android:text="@string/push_Alram_On" />
+	   </FrameLayout>
+
+</RelativeLayout>
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+     >
+	 <!-- 과제 내용 적은 것을 내부 DB에서 가져와서 넣을 TextView -->
+	<TextView
+	    android:id="@+id/gawjae_story"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="역사 박물관 다녀와 보고서 작성하기"
+	    android:textColor="#000000"
+	    android:layout_marginTop="15dp"
+	    android:layout_marginLeft="50dp"
+	    android:textSize="15sp"
+	    />
+	    
+</LinearLayout>
+    </TableLayout>
+    <TableLayout
+        android:id="@+id/push_Table"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:background="#F15F5F"
+         >
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="push알림 시간 설정" 
+			    android:textColor="#000000"
+			    android:textSize="20dp"
+			    />
+
+			    <LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal" >
+			<Button
+			    android:id="@+id/TimeSetting_3"
+			    android:layout_width="160dp"
+			    android:layout_height="50dp"
+			    android:text="날짜 설정"
+			    />
+			<Button
+			    android:id="@+id/TimeSetting_4"
+			    android:layout_width="160dp"
+			    android:layout_height="50dp"
+			    android:text="시간 설정"
+			    />
+			</LinearLayout>
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			     >
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="설정한 시간  : " 
+			    android:textColor="#000000"
+			    android:textSize="15dp"
+			    />
+			<TextView
+			    android:id="@+id/Setting_data1"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="시간을 설정하여 주시면 설정값을 보여드립니다."
+			    android:textColor="#000000"
+			    android:textSize="10dp"
+			    />
+			</LinearLayout>
+			<ToggleButton
+            android:id="@+id/Setting_save1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+        
+</TableLayout>
+<TableLayout
+        android:id="@+id/Alram_Table"
+        android:layout_width="fill_parent"
+        android:layout_height="140dp"
+        android:background="#F15F5F"
+         >
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="알람 시간 설정" 
+			    android:textColor="#000000"
+			    android:textSize="20dp"
+			    />
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal" >
+			<Button
+			    android:id="@+id/TimeSetting_1"
+			    android:layout_width="160dp"
+			    android:layout_height="50dp"
+			    android:text="날짜 설정"
+			    />
+			<Button
+			    android:id="@+id/TimeSetting_2"
+			    android:layout_width="160dp"
+			    android:layout_height="50dp"
+			    android:text="시간 설정"
+			    />
+			</LinearLayout>
+			<LinearLayout
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:orientation="horizontal"
+			     >
+			<TextView
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="설정한 시간  : " 
+			    android:textColor="#000000"
+			    android:textSize="15dp"
+			    />
+			<TextView
+			    android:id="@+id/Setting_data"
+			    android:layout_width="wrap_content"
+			    android:layout_height="wrap_content"
+			    android:text="시간을 설정하여 주시면 설정값을 보여드립니다."
+			    android:textColor="#000000"
+			    android:textSize="10dp"
+			    />
+			</LinearLayout>
+            <ToggleButton
+            android:id="@+id/Setting_save"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+                        <ToggleButton
+            android:id="@+id/toggleButton2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+                                                <ToggleButton
+            android:id="@+id/toggleButton3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" />
+			
+
+        
+</TableLayout>
+   
+
+</LinearLayout>
+

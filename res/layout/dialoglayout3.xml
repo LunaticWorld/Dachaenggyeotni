@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#7F000000"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/tableLayout1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="#ffffffff"
+        android:padding="10dp" >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="fill_parent"
+            android:layout_height="400dp"
+            android:padding="5dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/exmple5" />
+
+        <TableRow>
+
+            <CheckBox
+                android:id="@+id/end_check"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="이 글을 다시 표시하지 않겠습니다."
+                android:textStyle="bold"
+                android:textColor="@android:color/black" />
+
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/prv_btn2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_g"
+                android:text="@string/preview" />
+
+            <TextView
+                android:id="@+id/default_text_unused2"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1.5" />
+
+            <Button
+                android:id="@+id/ok_btn1"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="@drawable/btn_j"
+                android:text="@string/next" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
